@@ -17,7 +17,7 @@ class TourResource extends JsonResource
         return [
             'id' => $this->id,
             'name' => $this->name,
-            'starting_date' => $this->staring_date,
+            'starting_date' => $this->starting_date,
             'ending_date' => $this->ending_date,
             'price' => number_format($this->price, 2),
         ];
